@@ -116,34 +116,6 @@ export default {
 
             if(['/','*','-','+', '^'].includes(n)){
 
-                // if(n === '-'){
-                //     if(this.result.length === 0){
-                //         if(this.result[0] === '0'){
-                //             // this.mas = this.value.split('')
-                //             // this.mas[this.mas.length - 1] = n
-                //             this.result = n
-                //             //this.value = this.value.concat(this.result)
-                //         }
-                //     }else{
-                        
-                //         if(this.result[0] != ''){
-                //             this.value = this.value.concat(this.result)
-                //             this.value = this.value.concat(n)
-                //             this.result = ''
-                //         }
-                //         if(!(['÷','×','-','+', '^', '.'].includes(this.value[this.value.length - 1]))){
-                //                 this.value = this.value.concat(this.result)
-                //                 this.value = this.value.concat(n)
-                //                 this.result = ''
-                //             }
-                //         //this.result = this.result.concat(n)
-                        
-                //         // if(this.value[this.value.length - 1] != '-'){
-                //         //     //this.value = this.value.concat(n)
-                //         // }
-                //     }
-                // }
-
                 if(n === '^'){
                     this.result = this.result.toString()
                     this.result = this.result.concat(n)
